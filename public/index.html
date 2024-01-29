@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 
 <head>
     <meta charset="UTF-8">
@@ -7,22 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Style</title>
     <link href="./output.css" rel="stylesheet">
+    <link rel="shortcut icon" href="https://avatars.githubusercontent.com/u/122034996?v=4" type="image/x-icon">
+    <script src="./main.js" async></script>
 </head>
 
-<body>
+<body class="font-Karla">
     <div id="root">
         <div class="content-wrapper max-w-screen-xl text-base mx-auto px-8 bg-slate-400">
-            <header class="py-6 mx-10">
-                <nav class="flex items-center justify-between">
+            <header class="p-6 mx-auto">
+                <nav class="flex flex-row items-center justify-between relative">
                     <div class="logo basis-2/6 text-center text-xl font-semibold cursor-pointer">
                         CoffeeStyle.
                     </div>
-                    <ul
-                        class="basis-3/6 flex items-center justify-end gap-5 uppercase text-sm text-gray-500 font-medium">
-                        <li class="hp-top-menu-item">
+                    <ul id="hp-top-menu"
+                        class=" basis-3/6 hidden lg:flex lg:items-center lg:justify-end lg:gap-5 uppercase text-sm text-gray-500 font-medium">
+                        <li class="hp-top-menu-item hp-top-menu-item-active">
                             <a href="#">Home</a>
                         </li>
-                        <li class="hp-top-menu-item"><a href="#">Our Products</a></li>
+                        <li class="hp-top-menu-item"><a href="#">Products</a></li>
                         <li class="hp-top-menu-item"><a href="#">Blog</a></li>
                         <li class="hp-top-menu-item"><a href="#">About</a></li>
                         <li class="hp-top-menu-item"><a href="#">Contact</a></li>
@@ -31,7 +33,7 @@
                         </li>
                     </ul>
                     <ul
-                        class="basis-1/6 flex justify-start items-center ml-16 uppercase text-sm text-gray-500 font-medium">
+                        class="basis-3/6 flex lg:basis-1/6 lg:justify-start justify-end items-center ml-16 uppercase text-sm text-gray-500 font-medium">
                         <li>
                             <a href="#" class="flex items-center">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -48,6 +50,13 @@
                             </a>
                         </li>
                     </ul>
+                    <div class="lg:hidden basis-1/6 flex items-center cursor-pointer px-3 sm:px-8">
+                        <svg id="hp-togle-top-menu-icon" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hp-icon">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </div>
                 </nav>
             </header>
             <main>
