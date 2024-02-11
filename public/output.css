@@ -692,14 +692,6 @@ video {
   height: 1px;
 }
 
-.min-h-0{
-  min-height: 0px;
-}
-
-.min-h-\[370px\]{
-  min-height: 370px;
-}
-
 .min-h-\[350px\]{
   min-height: 350px;
 }
@@ -816,10 +808,6 @@ video {
 
 .gap-3{
   gap: 0.75rem;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-5{
@@ -1564,20 +1552,12 @@ video {
     gap: 1.25rem;
   }
 
-  .lg\:pl-8{
-    padding-left: 2rem;
-  }
-
   .lg\:pl-6{
     padding-left: 1.5rem;
   }
 
   .lg\:text-left{
     text-align: left;
-  }
-
-  .lg\:text-center{
-    text-align: center;
   }
 }
 
