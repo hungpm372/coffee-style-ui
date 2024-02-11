@@ -570,6 +570,34 @@ video {
   top: 0.75rem;
 }
 
+.left-\[\]{
+  left: ;
+}
+
+.left-\[calc\]{
+  left: calc;
+}
+
+.left-\[calc\(\)\]{
+  left: calc();
+}
+
+.left-\[calc\(-\)\]{
+  left: calc(-);
+}
+
+.left-\[calc\(-50\)\]{
+  left: calc(-50);
+}
+
+.left-\[calc\(-50vw\)\]{
+  left: calc(-50vw);
+}
+
+.left-\[calc\(-50vw\+50\%\)\]{
+  left: calc(-50vw + 50%);
+}
+
 .mx-16{
   margin-left: 4rem;
   margin-right: 4rem;
@@ -666,6 +694,10 @@ video {
   height: 100%;
 }
 
+.h-\[340px\]{
+  height: 340px;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -685,6 +717,30 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-1{
+  width: 0.25rem;
+}
+
+.w-px{
+  width: 1px;
+}
+
+.w-screen{
+  width: 100vw;
+}
+
+.w-\[\]{
+  width: ;
+}
+
+.w-\[100\]{
+  width: 100;
+}
+
+.w-\[100vw\]{
+  width: 100vw;
 }
 
 .max-w-screen-xl{
@@ -768,6 +824,10 @@ video {
   gap: 2rem;
 }
 
+.overflow-x-hidden{
+  overflow-x: hidden;
+}
+
 .bg-gray-900{
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
@@ -847,8 +907,20 @@ video {
   background-image: url('./assets/slide-bg.jpg');
 }
 
+.bg-\[url\(\'\.\/assets\/main-\.jpg\'\)\]{
+  background-image: url('./assets/main-.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/main-bg\.jpg\'\)\]{
+  background-image: url('./assets/main-bg.jpg');
+}
+
 .bg-cover{
   background-size: cover;
+}
+
+.bg-fixed{
+  background-attachment: fixed;
 }
 
 .bg-bottom{
