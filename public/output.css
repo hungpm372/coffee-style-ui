@@ -585,6 +585,11 @@ video {
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 .mb-24{
   margin-bottom: 6rem;
 }
@@ -613,6 +618,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-16{
+  margin-bottom: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -625,20 +634,20 @@ video {
   display: none;
 }
 
-.h-\[530px\]{
-  height: 530px;
-}
-
-.h-\[540px\]{
-  height: 540px;
-}
-
-.h-full{
-  height: 100%;
+.h-\[380px\]{
+  height: 380px;
 }
 
 .h-\[400px\]{
   height: 400px;
+}
+
+.h-\[530px\]{
+  height: 530px;
+}
+
+.h-full{
+  height: 100%;
 }
 
 .w-11\/12{
@@ -649,8 +658,8 @@ video {
   width: 100px;
 }
 
-.w-\[65\%\]{
-  width: 65%;
+.w-\[95\%\]{
+  width: 95%;
 }
 
 .w-full{
@@ -660,14 +669,6 @@ video {
 .w-max{
   width: -moz-max-content;
   width: max-content;
-}
-
-.w-\[\]{
-  width: ;
-}
-
-.w-\[95\%\]{
-  width: 95%;
 }
 
 .max-w-screen-xl{
@@ -699,10 +700,6 @@ video {
   cursor: pointer;
 }
 
-.grid-cols-2{
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1{
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -725,10 +722,6 @@ video {
 
 .justify-between{
   justify-content: space-between;
-}
-
-.gap-4{
-  gap: 1rem;
 }
 
 .gap-8{
@@ -766,6 +759,42 @@ video {
   background-image: url('./assets/slide-bg.jpg');
 }
 
+.bg-\[url\(\'\.\/assets\/more-product-1\.jpg\'\)\]{
+  background-image: url('./assets/more-product-1.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-2\.jpg\'\)\]{
+  background-image: url('./assets/more-product-2.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-3\.jpg\'\)\]{
+  background-image: url('./assets/more-product-3.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-4\.jpg\'\)\]{
+  background-image: url('./assets/more-product-4.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-5\.jpg\'\)\]{
+  background-image: url('./assets/more-product-5.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-6\.jpg\'\)\]{
+  background-image: url('./assets/more-product-6.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-7\.jpg\'\)\]{
+  background-image: url('./assets/more-product-7.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-8\.jpg\'\)\]{
+  background-image: url('./assets/more-product-8.jpg');
+}
+
+.bg-\[url\(\'\.\/assets\/more-product-9\.jpg\'\)\]{
+  background-image: url('./assets/more-product-9.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -796,11 +825,6 @@ video {
   padding-right: 1rem;
 }
 
-.px-6{
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
-
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
@@ -814,11 +838,6 @@ video {
 .py-32{
   padding-top: 8rem;
   padding-bottom: 8rem;
-}
-
-.py-4{
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 
 .text-center{
@@ -877,10 +896,6 @@ video {
 
 .leading-7{
   line-height: 1.75rem;
-}
-
-.tracking-wider{
-  letter-spacing: 0.05em;
 }
 
 .text-coffee-400{
@@ -1096,10 +1111,6 @@ video {
   --tw-bg-opacity: 0.1;
 }
 
-.hover\:bg-opacity-95:hover{
-  --tw-bg-opacity: 0.95;
-}
-
 .hover\:text-coffee-400:hover{
   --tw-text-opacity: 1;
   color: rgb(162 95 75 / var(--tw-text-opacity));
@@ -1161,6 +1172,18 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:gap-4{
+    gap: 1rem;
+  }
+
   .md\:px-32{
     padding-left: 8rem;
     padding-right: 8rem;
@@ -1180,12 +1203,20 @@ video {
     width: 65%;
   }
 
+  .lg\:w-\[75\%\]{
+    width: 75%;
+  }
+
   .lg\:basis-1\/6{
     flex-basis: 16.666667%;
   }
 
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .lg\:items-center{
@@ -1200,16 +1231,22 @@ video {
     justify-content: flex-end;
   }
 
-  .lg\:gap-5{
-    gap: 1.25rem;
-  }
-
   .lg\:gap-4{
     gap: 1rem;
+  }
+
+  .lg\:gap-5{
+    gap: 1.25rem;
   }
 
   .lg\:px-60{
     padding-left: 15rem;
     padding-right: 15rem;
+  }
+}
+
+@media (min-width: 1280px){
+  .xl\:w-\[75\%\]{
+    width: 75%;
   }
 }
